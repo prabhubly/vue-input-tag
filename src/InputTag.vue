@@ -6,6 +6,7 @@
     text : new RegExp(/^[a-zA-Z]+$/),
     digits : new RegExp(/^[\d() \.\:\-\+#]+$/),
     isodate : new RegExp(/^\d{4}[\/\-](0?[1-9]|1[012])[\/\-](0?[1-9]|[12][0-9]|3[01])$/)
+    tile: new RegExp(/^([a-zA-Z0-9]{4,5}|[a-zA-Z0-9]{4,5})$/)
   }
   /*eslint-enable*/
 
