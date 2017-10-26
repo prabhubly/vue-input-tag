@@ -7,7 +7,7 @@
     digits : new RegExp(/^[\d() \.\:\-\+#]+$/),
     isodate : new RegExp(/^\d{4}[\/\-](0?[1-9]|1[012])[\/\-](0?[1-9]|[12][0-9]|3[01])$/)
     // MGRS tiles like 10UFC, T10UDC, or landsat scene tiles which are 21 characters long
-    tile: new RegExp(/^([A-Z0-9]{4,5}|[A-Z0-9]{21})$/)
+    tile: new RegExp(/^([A-Z0-9]{5,6}|[A-Z0-9]{21})$/)
   }
   /*eslint-enable*/
 
